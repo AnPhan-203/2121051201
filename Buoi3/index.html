@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Bai 3</h1>
+
+  <!-- list -->
+    <!-- list co thu tu_ol -->
+  <ol>
+    <li>wake up</li>
+    <li>breakfast</li>
+    <li>brushteeth</li>
+    <li>school</li>
+    <li>rest</li>
+  </ol>
+    <!-- list khong thu tu_ul -->
+  <ul>
+    <li>Python</li>
+    <li>PHP</li>
+    <li>javascript</li>
+    <li>C#</li>
+  </ul>
+  
+  <!-- form -->
+  <h1>Form</h1>
+  <form>
+     <!-- input -->
+    <div>
+      <b>Name: </b>
+      <input type="text" name="hoten" placeholder="Enter name here">
+      <!-- type: text, number, date, checkbox, email, file, ... -->
+    </div><br>
+
+    <div>
+      <b>Year: </b>
+      <input type="text" name="year" value="2025" readonly>
+    </div><br>
+
+    <div>
+      <b>Email: </b>
+      <input type="email" name="email" placeholder="user@gmail.com">
+    </div><br>
+
+    <div>
+      <b>TelePhone: </b>
+      <input type="tel" name="telephone" placeholder="Dang so: 09xxxxxxxx" required pattern="(([0]{1})([9]{1})([0-9]{8}))">
+    </div><br>
+
+    <!-- textarea -->
+    <div>
+      <b>Introduce yourself: </b>
+      <textarea name="gioithieu" id="">enter here</textarea>
+    </div><br>
+
+    <!-- radio,checkbox -->
+    <div>
+      <b>Gender</b><br>
+      <input type="radio" name="gender" value="nam"> Male <br>
+      <input type="radio" name="gender" value="nu"> Female <br>
+      <input type="radio" name="gender" value="khongxacdinh"> Unknow <br>
+    </div>
+
+    <div>
+      <b>Hobby</b><br>
+      <input type="checkbox" name="hobby" value="game"> Game <br>
+      <input type="checkbox" name="hobby" value="music"> Music <br>
+      <input type="checkbox" name="hobby" value="sport"> Sport <br>
+    </div><br>
+
+    <!-- list -->
+    <div>
+      <b>Trinh duyet yeu thich</b><br>
+      <input list="browsers">
+      <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="FireFox">
+        <option value="Chrome">
+      </datalist>
+    </div>
+    <div>
+      <select name="browsers">
+        <option value="Internet Explorer">Internet Explorer</option>
+        <option value="FireFox">FireFox</option>
+        <option value="Chrome">Chrome</option>
+      </select>
+    </div><br>
+
+    <div>
+      0<input type="range" value="20">100
+    </div><br>
+
+    <div>
+      <b>Tuoi: </b>
+      in
+    </div>
+
+    <div>
+      <input type="submit">
+    </div>
+
+  </form>
+</body>
+</html>
