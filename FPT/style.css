@@ -51,7 +51,7 @@ a:hover {
 
 #but_buy {
   height: 75%;
-  background-color: orangered;
+  background-color: #FF5833;
   border: 0;
   width: 100px;
   color: white;
@@ -71,7 +71,7 @@ a:hover {
 }
 
 #but_buy:hover {
-  background-color: rgb(254, 94, 36);
+  background-color: rgb(254, 122, 74);
 }
 
 #but_login:hover {
@@ -101,11 +101,12 @@ a:hover {
   color: white;
   font-size: x-large;
   font-weight: 600;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0 10px;
 }
 
 .banner {
     width: 98%;
+    border-radius: 5px;
 }
 
 .qc {
@@ -114,9 +115,6 @@ a:hover {
     border-radius: 10px;
 }
 
-.tentheloai {
-    margin: 20px;
-}
 
 .danhsach {
     display: flex;
@@ -125,17 +123,53 @@ a:hover {
 }
 
 .phim {
-    width: 19%;
+    width: 18%;
 }
 
-.phim img {
+.ten {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: large;
+}
+
+.anh {
+  position: relative;
+  z-index: 0;
+
+}
+
+.phim .anh img {
     width: 100%;
+    cursor: pointer;
+}
+
+.anh .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 273px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.1s;
+  z-index: 1;
+}
+
+.overlay:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 /* groove */
 .groove {
   width: 1200px;
   height: 1px;
-  margin: 20px auto;
+  margin: 30px 0;
   background-color: #9b9b9b;
 }
 
