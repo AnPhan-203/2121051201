@@ -1,0 +1,46 @@
+body {
+  background-color: #121212;
+  color: white;
+  margin: 0;
+}
+
+.backgr {
+  width: 50%;
+  margin: auto;
+  height: 650px;
+  background-color: red;
+}
+
+.container {
+  background-color: #080808;
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  
+}
+
+.logo {
+  width: fit-content;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.btn_login {
+  width: 80%;
+  margin: auto;
+  border-bottom: 1px solid;
+}
+
+.btn_loginwith {
+  background-color: #080808;
+  color: white;
+  height: 35px;
+  width: 100%;
+  margin: 10px 0;
+  border: 2px solid;
+  border-radius: 30px;
+}
+
+
+
+
