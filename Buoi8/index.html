@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="Java.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    let thongTinKhachHang = {
+      thongtinkhachhang:{
+        hoTen : "Phan Thai An",
+        soDienThoai : "0891202203",
+        trangThaiTV : true,
+      },
+
+      trangThaiThanhToan: false,
+
+      maDonHang: "21",
+
+      danhSachSanPham: {
+        maSP : "SP01",
+        tenSP : "Nuoc hoa",
+        soLuong : 1 ,
+        giaTien : 20000 ,
+      },
+
+      diaChiGiaoHang: "Cau Giay, Ha Noi",
+
+    };
+
+    
+
+    document.writeln ("ho ten khach hang : " + thongTinKhachHang.thongtinkhachhang.hoTen);
+
+    document.writeln ("<br>" + "do dai cua ma don hang : " + thongTinKhachHang.maDonHang.length + "<br>");
+
+    var myString = "Hello";
+    document.writeln (myString[0] + "<br>");
+      //slice
+    document.writeln (myString.slice(1, 4) + "<br>" );
+      //replace
+    document.writeln (myString.replace ("Hello","Hi") + "<br>");
+      //toUpperCase / toLowerCase
+    document.writeln (myString.toUpperCase() + "<br>");
+      //indexOf_ifyes=viTriXuatHienDauTien_ifno=-1  
+      //includes_ifyes=true_ifno=false
+    document.writeln (myString.includes("e"));
+      //split_tachChuoiThanhMang
+    document.writeln (myString.split('l') + "<br>");
+
+
+    //kiemTraChuoi
+    let danhSach = ["An","Tuan","Bach","Giang"];
+    document.writeln (danhSach[1].startsWith("T"));
+
+    
+  </script>
+</body>
+</html>
